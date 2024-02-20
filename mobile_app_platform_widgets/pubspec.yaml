@@ -1,0 +1,31 @@
+name: mobile_app_platform_widgets
+description: A new Flutter package project.
+version: 0.0.1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.1
+  flutter_svg: ^2.0.9
+  connectivity_plus: ^5.0.1
+  cached_network_image: ^3.2.3
+  tyrios_mobile_app_flutter_extensions:
+    path: ../mobile_app_extentions
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  generate: true
+fonts:
+  - family: Poppins
+    fonts:
+      - asset: fonts/Poppins-Regular.ttf
+flutter_intl:
+  enabled: true
