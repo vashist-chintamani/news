@@ -1,0 +1,41 @@
+name: ecommerce_mobile_login
+description: A new Flutter package project.
+version: 0.0.1
+homepage: TYRIOS
+publish_to: none
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  http: ^0.13.6
+  intl: ^0.18.1
+  pinput: ^2.3.0
+  flutter_gen:
+  flutter_svg: ^2.0.9
+  country_code_picker: ^3.0.0
+  tyrios_mobile_app_flutter_extensions:
+    path: ../mobile_app_extentions
+  mobile_app_platform_widgets:
+    path: ../mobile_app_platform_widgets
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  generate: true
+fonts:
+  - family: Poppins
+    fonts:
+      - asset: fonts/Poppins-Regular.ttf
+
+flutter_intl:
+  enabled: true
